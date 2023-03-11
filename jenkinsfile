@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage ('clone') {
+        stage ('clone area') {
             steps {
                 git url :'https://github.com/Tajdarhussain110/game-of-life.git',
                 branch :'master'
