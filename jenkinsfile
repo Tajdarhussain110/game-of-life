@@ -7,7 +7,7 @@ pipeline {
                 branch :'master'
             }
         }
-          stage ('artifactory for store') {
+          stage ('artifactory for store in jfrog') {
              steps {
                rtMavenDeployer (
                     id: "MAVEN_DEPLOYER",
